@@ -17,7 +17,7 @@ public class Main {
 		System.out.print("Please enter your birth gender (m/f): ");
 		gender = userinput.next().charAt(0);
 		
-		System.out.print("Please enter in your height (cm): ");
+		System.out.print("Please enter your height (cm): ");
 		height = userinput.nextDouble();
 	    
 	    System.out.print("Please enter your weight (kg): ");
