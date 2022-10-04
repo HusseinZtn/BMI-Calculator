@@ -31,6 +31,6 @@ f -> Female
 
 ## Console Screenshot
 
-Here is an example of what it might look like :)
+Here is an example :)
 
 ![unknown](https://user-images.githubusercontent.com/79874611/192594477-350adc00-03f0-4c48-8e70-33a5f96db45e.png)
