@@ -34,15 +34,13 @@ public class Calculator extends Main {
 						} else {
 							if (gender == 'm' && bmi > NORMALWEIGHT_MAN) {
 								return "You are overweight.";
-							} else {
-								return "This is not a biological gender ⍨";
 							}
 						}
 					}
 				}
 			}
 		}
-
+		return null;
 	}
 
 }
