@@ -15,19 +15,19 @@ f -> Female
 
 ## BMI values 
  
- The values could be incorrect ⍨ 
+ The [source](https://www.verival.de/bmi-rechner#:~:text=Daher%20liegt%20der%20BMI%20Normalwert,BMI%20Wert%20etwas%20h%C3%B6her%20liegen.) for the values
  
 | BMI | RESULT MALE |
 | ------ | ------ |
-| 20 | Your BMI is underweight |
-|< 25 | Your BMI is in normal weight |
-|> 25 | Your BMI is in the overweight |
+| less than 18,5 | You are underweight. |
+| 18,5 – 24,9 | You have normal weight. |
+| 25 – 29,9 | You are overweight. |
 
 | BMI | RESULT FEMALE |
 | ------ | ------ |
-| 19 | Your BMI is underweight |
-| < 24 | Your BMI is in normal weight |
-| > 25 | Your BMI is in the overweight |
+| less than 17,5 | You are underweight. |
+| 17,5 – 24 | You have normal weight. |
+| 24 – 29 | You are overweight. |
 
 ## Console Screenshot
 
