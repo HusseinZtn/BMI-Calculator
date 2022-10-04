@@ -17,14 +17,20 @@ public class Main {
 		System.out.print("Please enter your birth gender (m/f): ");
 		gender = userinput.next().charAt(0);
 
-		System.out.print("Please enter your height (cm): ");
-		height = userinput.nextDouble();
+		// check if gender is male or female
+		if (gender == 'f' || gender == 'm') {
 
-		System.out.print("Please enter your weight (kg): ");
-		weight = userinput.nextDouble();
+			System.out.print("Please enter your height (cm): ");
+			height = userinput.nextDouble();
 
-		// height -> double | weight -> double | gender -> char
-		System.out.println(Calculator.calculate(height, weight, gender));
+			System.out.print("Please enter your weight (kg): ");
+			weight = userinput.nextDouble();
+
+			// height -> double | weight -> double | gender -> char
+			System.out.println(Calculator.calculate(height, weight, gender));
+		} else {
+			System.out.println("Please choose between male (m) and female (f) or check your orthography!");
+		}
 
 	}
 
